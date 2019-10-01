@@ -40,7 +40,7 @@ def self.alphabetical
   self.all.sort_by {so|song| song.name}
 end
 
-def self.new_from_filename(osng)
+def self.new_from_filename(song)
 
 
 end
