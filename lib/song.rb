@@ -40,3 +40,4 @@ def self.alphabetical
   @@all.sort {|song| a<=>b}
 end
 end
+end
