@@ -41,6 +41,7 @@ def self.alphabetical
 end
 
 def self.new_from_filename(song)
+  split_file = song.split(" - ")
 
 
 end
