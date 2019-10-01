@@ -37,7 +37,7 @@ end
 
 
 def self.alphabetical
-  self.all.sort_by 
+  self.all.sort_by {so|song| song.name}
 end
 
 
